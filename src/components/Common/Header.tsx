@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="text-rose-600 hover:text-rose-700 transition-colors whitespace-nowrap shrink-0 flex items-center gap-1 font-bold"
           >
             <PhoneCall className="w-3.5 h-3.5" />
-            <span>Emergency 911</span>
+            <span>Emergency 112</span>
           </a>
         </nav>
 
