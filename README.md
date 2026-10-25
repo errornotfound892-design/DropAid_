@@ -5,7 +5,7 @@
 DropAid is a healthcare technology web application designed to simplify ambulance booking and improve emergency transportation coordination. It provides a location-aware booking experience, ambulance assignment, route visualization, trip tracking, and hospital destination support through an interactive working simulation.
 
 Built by **Team Error Not Found** as a hackathon project, DropAid explores how technology can make ambulance coordination more accessible, organized, and transparent.
-
+ 
 ## 🌟 Key Features
 
 - 🚨 **Quick Ambulance Booking** — An interactive emergency booking button activated by a 5-second hold.
