@@ -42,3 +42,44 @@
   animation: siren-pulse 1.8s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
 }
 
+/* Dark + Purple Theme */
+
+@theme {
+  --color-primary: #8B5CF6;
+  --color-primary-light: #A78BFA;
+  --color-primary-dark: #6D28D9;
+  --color-background: #0B0912;
+  --color-surface: #191323;
+  --color-text: #F5F3FF;
+  --color-border: #35234F;
+}
+
+@layer base {
+  body {
+    background-color: #0B0912;
+    color: #F5F3FF;
+  }
+}
+
+@layer components {
+  .theme-button {
+    background-color: #7C3AED;
+    color: #FFFFFF;
+    border: 1px solid #8B5CF6;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .theme-button:hover {
+    background-color: #6D28D9;
+  }
+
+  .theme-card {
+    background-color: #191323;
+    color: #F5F3FF;
+    border: 1px solid #35234F;
+    border-radius: 0.75rem;
+  }
+}
+
